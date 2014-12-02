@@ -1,17 +1,17 @@
 global-reset()
 
 html
-	h1, h2, h3, h4, h5, h6, span, li
+	h1, h2, h3, h4, h5, h6, span, li, input
 		opacity 0
 		transition opacity 0.8s ease-out-cubic
 	
 
 .wf-loading
-	h1, h2, h3, h4, h5, h6, span, li
+	h1, h2, h3, h4, h5, h6, span, li, input
 		opacity 0
 		
 .wf-active
-	h1, h2, h3, h4, h5, h6, span, li
+	h1, h2, h3, h4, h5, h6, span, li, input
 		opacity 1
 
 	
@@ -21,11 +21,23 @@ body
 	font-family "museo-slab", serif
 	font-weight 300
 	padding 30px
+	color #FFF
+	
+button, input
+	outline none
+	outline-style none
+	outline-width 0
+	border none
+	box-shadow none
+	padding 10px 20px
+	font-size 1.2em
+	background: #FFF
+
 
 section.splash
 	.soch-logo
 		display block
-		margin 50px auto
+		margin 20px auto
 		width 200px
 		height 200px
 
@@ -33,11 +45,28 @@ section.splash
 	h1
 		display block
 		text-align center
-		color white
-		margin 100px auto
+		margin 80px auto
+		margin-botton 50px;
 		font-size 2em
 		font-weight 300
 		em 
 			font-weight 300
 			font-style italic
 			color #ffbb04
+section.cta
+	text-align: center
+	h2.cta-text
+		font-size 1.2em
+		padding 40px
+	input.cta-input
+		display inline-block
+		margin 0 auto
+		border-radius 5px
+	button.cta-button
+		background #000
+		color #FFF
+		border-radius 5px
+		transition 0.1s ease-out
+		&:hover
+			transform scale(1.04,1.04)
+			background #ffbb04
