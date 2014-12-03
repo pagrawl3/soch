@@ -18,7 +18,6 @@ app.use(router(app));
 require('./lib/config/router')(app);
 
 //Start the server
-require('node-pow')('local', 3000);
 app.listen(3000);
 
 //Expose the application

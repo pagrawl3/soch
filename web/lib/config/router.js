@@ -4,4 +4,5 @@ module.exports = function(app) {
 
 	//__Routes
 	app.get('/', main.index);
+	app.post('/subscribe', main.subscribe);
 };

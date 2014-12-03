@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git://github.com/pagrawl3/takeoff.git"
   },
-  "keywords": ["Launchpad", "Scaffold", "Gulp"],
+  "keywords": [
+    "Launchpad",
+    "Scaffold",
+    "Gulp"
+  ],
   "dependencies": {
     "axis": "^0.3.0",
     "jade": "^1.7.0",
@@ -22,9 +26,11 @@
     "koa-etag": "^2.0.0",
     "koa-favicon": "^1.2.0",
     "koa-logger": "^1.2.2",
+    "koa-mongo": "^0.2.0",
     "koa-rewrite": "^1.1.0",
     "koa-router": "^3.4.0",
     "koa-static": "^1.4.7",
+    "mongodb": "~2.0",
     "node-watch": "^0.3.4",
     "stylus": "^0.49.2"
   },
